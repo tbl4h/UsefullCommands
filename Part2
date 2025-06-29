@@ -1,0 +1,4 @@
+# Create new window for debug qtile
+killall xephyr
+xephyr -br -ac -noreset -screen 1200x720 :1 &
+DISPLAY=:1 qtile start
