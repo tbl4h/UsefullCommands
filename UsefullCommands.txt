@@ -1,0 +1,2 @@
+xprop | grep CLASS --> Check window class attribute. Usefull in picom configuration setup.
+
