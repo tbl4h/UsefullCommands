@@ -15,3 +15,4 @@ EndSection' >> /etc/X11/xorg.conf.d/30-tuchpad.conf
 
 sudo pacman -S feh
 sudo pacman -S picom
+sudo rsync -avh --progress --delete /home/mic/ /mnt
