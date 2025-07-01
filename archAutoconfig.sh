@@ -14,3 +14,4 @@ echo
 EndSection' >> /etc/X11/xorg.conf.d/30-tuchpad.conf
 
 sudo pacman -S feh
+sudo pacman -S picom
