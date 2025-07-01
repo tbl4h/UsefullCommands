@@ -15,4 +15,11 @@ EndSection' >> /etc/X11/xorg.conf.d/30-tuchpad.conf
 
 sudo pacman -S feh
 sudo pacman -S picom
-sudo rsync -avh --progress --delete /home/mic/ /mnt
+#sudo rsync -avh --progress --delete /home/mic/ /mnt
+
+sudo pacman -S git base-devel
+cd /tmp
+git clone https://aur.archlinux.org/yay.git
+cd yay
+makepkg -si
+yay -S midori-git
