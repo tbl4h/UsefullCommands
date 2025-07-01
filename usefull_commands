@@ -1,0 +1,7 @@
+# Show last logs specyfic for qtile or more general for user.
+journalctl --user -b -u qtile
+~/.local/share/qtile/qtile.log
+journalctl --user -b
+
+# Spell check for qtile
+qtile check ~/.config/qtile/config.py
