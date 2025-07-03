@@ -29,7 +29,7 @@ sudo pacman -S python python-pip
 sudo pacman -S python-pynvim
 sudo pacman -S fd
 sudo pacman -S ripgrep
-sudo pacman -S rust cargo
+sudo pacman -S rust cargo rustfmt
 cargo install selene
 cargo install stylua
 
