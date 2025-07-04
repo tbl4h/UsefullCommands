@@ -32,4 +32,5 @@ sudo pacman -S ripgrep
 sudo pacman -S rust cargo rustfmt
 cargo install selene
 cargo install stylua
+sudo pacman -S lazygit
 
