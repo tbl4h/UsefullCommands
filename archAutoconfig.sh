@@ -36,7 +36,7 @@ cargo install stylua
 sudo pacman -S flatpak
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 flatpak install flathub com.logseq.Logseq
-
+sudo pacman -S cmake qemu gcc repo
 
 sudo pacman -S lazygit
 sudo pacman -S libsecret
